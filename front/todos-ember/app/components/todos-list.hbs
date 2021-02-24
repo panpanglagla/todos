@@ -1,0 +1,8 @@
+<div class="todos-list">
+  <h2 class="todos-list-title">{{yield}}</h2>
+  <div class="todos-list-container">
+    {{#each @todosList as |property|}}
+      <TodosItem @todosItem={{property}}></TodosItem>
+    {{/each}}
+  </div>
+</div>

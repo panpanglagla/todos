@@ -1,0 +1,29 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+front/todos-ember/dist/
+front/todos-ember/tmp/
+
+# dependencies
+front/todos-ember/bower_components/
+front/todos-ember/node_modules/
+
+# misc
+front/todos-ember/.env*
+front/todos-ember/.pnp*
+front/todos-ember/.sass-cache
+front/todos-ember/.eslintcache
+front/todos-ember/connect.lock
+front/todos-ember/coverage/
+front/todos-ember/libpeerconnection.log
+front/todos-ember/npm-debug.log*
+front/todos-ember/testem.log
+front/todos-ember/yarn-error.log
+
+# ember-try
+/.node_modules.ember-try/
+/bower.json.ember-try
+/package.json.ember-try
+
+# Mac
+.DS_Store

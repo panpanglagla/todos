@@ -1,0 +1,15 @@
+<article class="todos-item-container">
+  <div class="todos-item">
+    <span class="todos-item-date">{{@todosItem.due}}</span>
+    <div class="todos-item-table">
+      <div class="todos-item-table-cell">
+        <button type="button" class="todos-item-button" {{on "click" this.toggleDone}}>
+          <img class="todos-item-image" src="assets/images/{{if this.isDone "is" "is-not"}}-done.png">
+        </button>
+      </div>
+      <div class="todos-item-table-cell">
+        <span class="todos-item-title">{{@todosItem.title}}</span>
+      </div>
+    </div>
+  </div>
+</article>
